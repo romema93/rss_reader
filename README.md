@@ -1,4 +1,9 @@
-#### RSS READER
+## RSS READER
+
+- Framework frontend: `React`
+
+- Framework backend: `Flask`
+
 Nota: tener instalado `yarn`,`pip` y `virtualenv`
 ### Ejecución con `make`
 Instalar el servidor
@@ -10,6 +15,8 @@ Instalar el cliente
     > make install-client
     
 Migrar la base de datos SQLite
+    
+    > source venv/bin/activate
     
     > python manage.py db init
 
